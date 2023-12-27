@@ -1,0 +1,74 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(assets/img/fondo-pizza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    /* border: 3px solid black; */
+}
+
+.contenedor-pizza {
+    margin-top: 10%;
+    background-color: white;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-titulo {
+    padding: 20px 50px 10px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-titulo h1 {
+    padding: 10px 0 15px;
+}
+
+.contenedor-toppings {
+    width: 100%;
+}
+
+.contenedor-toppings ul {
+    width: 100%;
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-toppings ul li {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    /* display: inline-block; */
+}
+
+.contenedor-toppings ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 0;
+    font-size: 1.2rem;
+}
+
+.marron {
+    background-color: #8D4925;
+}
+
+.naranja {
+    background-color: #FF8000;
+}

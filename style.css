@@ -14,16 +14,17 @@ body {
 .contenedor {
     display: flex;
     justify-content: center;
-    /* border: 3px solid black; */
+    align-items: center;
+    height: 100vh; /*Con esto hago que el contenedor General tenga el 100% del Alto del ViewPort*/
 }
 
 .contenedor-pizza {
-    margin-top: 10%;
     background-color: white;
     border: 3px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-height: 50%;
 }
 
 .contenedor-titulo {

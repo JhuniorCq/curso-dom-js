@@ -9,6 +9,7 @@ body {
     background-image: url(assets/img/fondo-pizza.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .contenedor {
@@ -18,23 +19,28 @@ body {
     height: 100vh; /*Con esto hago que el contenedor General tenga el 100% del Alto del ViewPort*/
 }
 
+/*Para mejorar la Vista en Móviles sería mejor usar Media Queries con el width*/
 .contenedor-pizza {
+    min-width: 30vw; /*Como mínimo el ancho será de 30vw*/
+    width: 30vw;
     background-color: white;
     border: 3px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-height: 50%;
+    max-height: 65%; /*Como máximo el alto será el 65% del alto del padre*/
+    max-width: 600px; /*Como máximo el ancho será de 600px*/
 }
 
 .contenedor-titulo {
-    padding: 20px 50px 10px 50px;
+    padding: 20px 0 10px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .contenedor-titulo h1 {
+    text-align: center;
     padding: 10px 0 15px;
 }
 

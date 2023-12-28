@@ -11,21 +11,22 @@
         
         <div class="contenedor">
             <div class="contenedor-pizza">
-                <div class="contenedor-titulo">
+                <div class="contenedor-titulo" id="titulo">
                     <img src="assets/img/icono-pizza.png" alt="Logo Pizza">
                     <h1>Toppings de Pizza</h1>
                 </div>
                 <div class="contenedor-toppings">
-                    <ul>
-                        <li class="marron"><a href="#">Aceitunas</a></li>
-                        <li class="naranja"><a href="#">Cebolla</a></li>
-                        <li class="marron"><a href="#">Albahaca</a></li>
-                        <li class="naranja"><a href="#">Champiñones</a></li>
+                    <!-- Recordar que para agregar MÁS CLASES a un Elemento, solo se debe usar un 'class' -->
+                    <ul id="lista-toppings">
+                        <li class="topping marron"><a href="#">Aceitunas</a></li>
+                        <li class="topping naranja"><a href="#">Cebolla</a></li>
+                        <li class="topping marron" id="albahaca"><a href="#">Albahaca</a></li>
+                        <li class="topping naranja"><a href="#">Champiñones</a></li>
                     </ul>
                 </div>
             </div>
         </div>
-        
+
         <script src="index.js"></script>
     </body>
 </html>
